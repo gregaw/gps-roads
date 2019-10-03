@@ -1,7 +1,7 @@
 # GeoSpark - mapping GPS to road graph
 (optimising delivery optimisations)
 
-##Setup and run (for Mac)
+## Setup and run (for Mac)
 
 - build the project with sbt assembly
 - download data using ./getdata.sh (you will need about 200MB disk space)
@@ -9,7 +9,7 @@
 - store the results using ./namerun.sh TESTNAME
 - analyse results.csv or reports.csv
 
-##FAQ
+## FAQ
 - Why do you use RDD rather than DataFrames geo-spark interface?
 
 Firstly, we benchmark the use of indices and discretized space models (Mesh) so it doesn't matter too much if we're using RDDs or DataFrames.
